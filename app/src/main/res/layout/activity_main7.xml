@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#4c4844"
     tools:context=".Main7Activity">
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -18,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="ALMACEN"
+            android:textColor="#59F1FF"
             android:textSize="25dp"
             android:textStyle="italic|bold"
             android:layout_marginTop="15dp"/>
@@ -25,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="PRODUCTO"
+            android:textColor="#59F1FF"
             android:layout_gravity="center"
             android:layout_marginTop="35dp"
            />
@@ -35,12 +39,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:textColor="#59F1FF"
             android:inputType="textPersonName"
             android:hint="ej. cosas..." />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#59F1FF"
             android:text="CANTIDAD"/>
 
         <EditText
@@ -49,12 +55,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:textColor="#59F1FF"
             android:inputType="textPersonName"
             android:hint="ej. 255" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#59F1FF"
             android:text="PRECIO"/>
 
         <EditText
@@ -63,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:textColor="#59F1FF"
             android:inputType="textPersonName"
             android:hint="ej.1200.50" />
         <Button

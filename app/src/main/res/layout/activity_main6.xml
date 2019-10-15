@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#4c4844"
     tools:context=".Main6Activity">
 
     <LinearLayout
@@ -17,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="DETALLE DE COMPRA"
+        android:textColor="#59F1FF"
         android:textSize="25dp"
         android:textStyle="italic|bold"
         android:layout_marginTop="15dp"/>
@@ -25,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="35dp"
+        android:textColor="#59F1FF"
         android:text="CANTIDAD"/>
 
     <EditText
@@ -33,12 +36,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:text="PRECIO"/>
 
     <EditText
@@ -47,11 +52,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#59F1FF"
         android:layout_gravity="center"
         android:text="IDALMACEN"/>
 
@@ -61,12 +68,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:text="IDCOMPRA"/>
 
     <EditText
@@ -75,6 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
 

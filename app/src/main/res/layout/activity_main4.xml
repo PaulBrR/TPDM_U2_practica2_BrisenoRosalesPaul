@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#4c4844"
     tools:context=".Main4Activity">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -17,6 +18,7 @@
         android:layout_gravity="center"
         android:text="CLIENTE"
         android:textSize="25dp"
+            android:textColor="#59F1FF"
         android:textStyle="italic|bold"
         android:layout_marginTop="15dp"/>
 
@@ -32,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
 
         android:text="NUMERO DE TELEFONO"/>
 
@@ -41,12 +44,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:text="NOMBRE"/>
 
     <EditText
@@ -54,6 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
@@ -61,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:text="DOMICILIO"/>
 
     <EditText
@@ -69,12 +76,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#59F1FF"
         android:text="IdEmpresa"/>
 
     <EditText
@@ -83,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:textColor="#59F1FF"
         android:inputType="textPersonName"
         android:text="Name" />
 
