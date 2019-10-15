@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ALMACEN"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/almacen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EMPRESA"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/empresa"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CLIENTE"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/cliente"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="COMPRA"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/compra"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DETALLE COMPRA"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/detaCompra"/>
+
+
+</LinearLayout>
+</ScrollView>

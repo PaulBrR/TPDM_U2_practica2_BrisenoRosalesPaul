@@ -1,0 +1,35 @@
+package paulbriseno.ittepi.edu.mx.tpdm_u2_practica2_brisenorosales
+
+import android.content.Context
+import android.database.sqlite.SQLiteDatabase
+import android.database.sqlite.SQLiteOpenHelper
+
+class BaseDatos (
+context: Context?,name:String?,factory: SQLiteDatabase.CursorFactory?,version:Int):
+        SQLiteOpenHelper(context,name,factory,version){
+    override fun onCreate(p0: SQLiteDatabase?) {
+        p0?.execSQL("CREATE TABLE ALMACEN (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL," +
+                "PRODUCTO VARCHAR(400)," +
+                "CANTIDAD INTEGER ," +
+                " PRECIO FLOAT)")
+        p0?.execSQL("CREATE TABLE EMPRESA(ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, DESCRPCION VARCHAR(30), DOMICILIO VARCHAR (30) )")
+
+        p0?.execSQL("CREATE TABLE CLIENTE(NOTELEFONO VARCHAR(30) PRIMARY KEY NOT NULL,  NOMBRE VARCHAR (400), DOMICILIO VARCHAR(400), IDEMPRESA INTEGER , CONSTRAINT fk_EMPRESA FOREIGN KEY (IDEMPRESA) REFERENCES EMPRESA (ID)  )")
+
+
+        p0?.execSQL("CREATE TABLE DETALLECOMPRA (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,CANTIDAD INTEGER,PRECIO FLOAT,  IDALMACEN INTEGER ,IDCOMPRA INTEGER , CONSTRAINT fk_ALMACEN FOREIGN KEY (IDALMACEN) REFERENCES ALMACEN(ID) , CONSTRAINT fk_COMPRA FOREIGN KEY (IDCOMPRA) REFERENCES  COMPRA (ID))")
+
+
+        p0?.execSQL("CREATE TABLE COMPRA (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, FECHA DATE, TOTAL FLOAT, IDCLIENTE VARCHAR (30), CONSTRAINT fk_CLIENTE FOREIGN KEY (IDCLIENTE) REFERENCES CLIENTE (NOTELEFONO)  )")
+
+
+
+
+
+    }
+
+    override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
+
+    }
+
+}
